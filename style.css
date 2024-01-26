@@ -2,3 +2,21 @@ main{
     background-color: aqua;
     height: 100vh;
 }
+input{
+    font-size: 18px;
+    padding: 5px;
+    border: solid 1px black;
+    border-radius: 10pt;
+    margin: 5px;
+}
+input[type=text]:focus{
+    background-color: rgb(255, 23, 92);
+}
+label{
+    display: block;
+    width: 100%;
+    
+}
+form,h1{
+    margin: 10px;
+}

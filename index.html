@@ -15,11 +15,17 @@
     <main>
         <h1>Kocsik</h1>
         <form action="#" method="get">
-            <label for="">Kedvenc márka:</label>
-            <input type="text" id="k_marka" name="marka" value="Honda">
-            <input type="submit" value="Küldés">
-            
-
+            <fieldset>
+                <label for="">Kedvenc márka:</label>
+                <input type="text" id="k_marka" name="marka" value="Honda"><br>
+                <input type="submit" value="Küldés">
+                <label for="">Típus:</label>
+                <input type="text" id="tipus" name="tipus" value="Civic"><br>
+                <label for="">Évjárat</label>
+                <input type="range" id="evjarat" name="evjarat" min="1804" max="2024" oninput="this.form.evjarat_szam.value=this.value"><br>
+                <input type="number" name="evjarat_szam" min="1804" max="2024"><br>
+                <input type="submit" value="Küldés">
+            </fieldset>
         </form>
     </main>
 </body>
