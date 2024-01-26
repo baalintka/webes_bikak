@@ -17,6 +17,16 @@ label{
     width: 100%;
     
 }
+.kuld{
+    display: block;
+    text-align: center;
+    margin: auto;
+    
+}
 form,h1{
     margin: 10px;
+}
+#fo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
