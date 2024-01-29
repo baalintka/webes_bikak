@@ -1,6 +1,7 @@
 main{
     background-color: aqua;
     height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 input{
     font-size: 18px;
@@ -26,7 +27,11 @@ label{
 form,h1{
     margin: 10px;
 }
-#fo{
+.fi{
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+.labeldiv label{
+    
+    font-weight: 45px;
 }
